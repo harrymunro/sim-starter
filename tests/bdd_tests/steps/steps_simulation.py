@@ -9,7 +9,7 @@ def step_create_simulation_environment(context):
     context.env = simpy.Environment()
 
     # Load the configuration file and store it in context
-    context.simulation_config = load_config('sim_config.yaml')
+    context.simulation_config = load_config('factory_sim_config.yaml')
 
 
 @when('the simulation is run')

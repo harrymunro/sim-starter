@@ -1,0 +1,6 @@
+agents: 3               # Number of machines (agents) in the factory
+world_size: 1           # Size of the environment is fixed for this example
+sim_duration: 100       # Simulation duration in time steps
+logging_level: INFO     # Log level
+production_rate: 5      # Time it takes for a machine to produce a component
+output_file: "output/results.csv"  # File path for saving simulation results

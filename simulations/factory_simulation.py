@@ -23,7 +23,7 @@ class FactorySimulation:
         self.logger.info('Simulation finished.')
 
 if __name__ == "__main__":
-    config = load_config('config/sim_config.yaml')
+    config = load_config('factory_sim_config.yaml')
     logging.basicConfig(level=config['logging_level'])
 
     env = simpy.Environment()

@@ -14,5 +14,5 @@ def load_config(config_file):
 
 # Example usage
 if __name__ == "__main__":
-    config = load_config('config/sim_config.yaml')
+    config = load_config('sim_config.yaml')
     print(config)
